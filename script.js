@@ -61,5 +61,6 @@ async function startGame(){
     // Aquí va la lógica principal del juego.
     let username =[];
     username.push(await getUserInput("Inserta el nombre"));
+    // 5569h555
     return rl.close(); // Linea que hace que el programa se cierre una vez termine el juego. No la borres ni comentes.
 }
