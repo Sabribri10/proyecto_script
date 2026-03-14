@@ -23,7 +23,7 @@ username = await getUserInput("What is your name?"); // COMENTA esta linea cuand
 // ------------------- Función para pedir datos al usuario ----------------------
 // Esta función se encarga de obtener la entrada del usuario a través de la consola. 
 // Toma una pregunta como argumento, la muestra al usuario y espera su respuesta. 
-// Una vez que el usuario ingresa su respuesta, la función devuelve esa respuesta como una cadena de texto.
+// Una vez que el usuario ingresa su respuesta, la función devuelve esa respuesta como una cadena de texto..
 function getUserInput(question) {
     return new Promise((resolve) => {
         rl.question(question + " ", (answer) => {
